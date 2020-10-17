@@ -1,0 +1,33 @@
+.container{
+    width:80%;
+    margin:auto;
+    
+}
+header{
+    background-color: #f7eacc;
+    color:#000000;
+    border-bottom: #6c6b6a 3px solid;
+    padding-top: 20px;
+}
+
+.brandtitle{
+    display: flex;
+    width:80%;
+}
+header a{
+    text-decoration:none;
+    color: #777a98;
+    text-transform: uppercase;
+    font-size:18px;
+}
+.menu-burg{
+    display: none;
+}
+.nav li{
+    padding:0px 10px;
+}
+.nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
