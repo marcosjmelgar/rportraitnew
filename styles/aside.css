@@ -1,0 +1,15 @@
+.boxa img {
+width:90px;
+}
+.boxa{
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+aside{
+    flex-direction: column;
+    justify-content:flex-end;
+    width:30%;
+    margin-right:0px;
+    margin-left:0px;
+}

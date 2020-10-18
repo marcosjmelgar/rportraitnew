@@ -1,24 +1,26 @@
-.container{
-    width:80%;
-    margin:auto;
-    
-}
 header{
-    background-color: #f7eacc;
+    background-color: #f1f1f5;
     color:#000000;
-    border-bottom: #6c6b6a 3px solid;
+    border-bottom: #181717 3px solid;
     padding-top: 20px;
 }
 
 .brandtitle{
-    display: flex;
     width:80%;
+    font-size:30px;
+    font-style: helvetica, arial;
+    font-weight:bold;
 }
 header a{
     text-decoration:none;
-    color: #777a98;
     text-transform: uppercase;
     font-size:18px;
+    color: #424244;
+}
+header a:hover{
+    font-weight: bolder;
+    color: #424244;
+    color:#000000
 }
 .menu-burg{
     display: none;
@@ -30,4 +32,5 @@ header a{
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
+    align-items:center;
 }
