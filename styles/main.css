@@ -1,7 +1,49 @@
+@media (min-width:480px) {
 .box{
-    width:80%;
     margin-right:0px;
+    width:100%;
+}
+.box img {
+    width:100%;
 }
 .container {
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width:100%;
+}
+    .box1{
+        text-align:center;
+        width:100%;
+        padding:10px;
+    }
+    .box1 img{
+        width: 70px;
+    }
+    .box2{
+        text-align:center;
+        width:100%;
+        padding:10px;
+
+    }
+    .box2 img{
+        width:70px;
+    }
+    .box3{
+        text-align:center;
+        width:100%;
+        padding:10px;
+    }
+    .box3 img{
+        width:70px;
+    }
+    .asided aside{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
