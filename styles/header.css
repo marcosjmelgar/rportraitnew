@@ -18,7 +18,7 @@
     .brandtitle{
         width:100%;
         font-size:30px;
-        font-style: helvetica, arial;
+        font-family: helvetica, arial;
         font-weight:900;
         display:flex;
         justify-content: space-between;

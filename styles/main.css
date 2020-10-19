@@ -3,6 +3,17 @@
     margin-right:0px;
     width:100%;
 }
+.mainh{
+    Font-size:40px;
+    text-align:center;
+    font-weight: bold;
+    font-family: helvetica,arial;
+}
+.mainp{
+    Font-size:20px;
+    font-family: helvetica,arial;
+    text-align: center;
+}
 .box img {
     width:100%;
 }
@@ -19,25 +30,63 @@
         width:100%;
         padding:10px;
     }
+    .box1 p{
+        font-size: 16px;
+        font-family: helvetica,arial;
+        text-align:center;
+    }
+    .box1 a{
+        text-decoration: none;
+        color:#000000;
+    }
+    .box1 a:hover{
+        font-weight: bolder;
+        color:red;
+    }
     .box1 img{
-        width: 70px;
+        width: 120px;
     }
     .box2{
         text-align:center;
         width:100%;
         padding:10px;
-
+    }
+    .box2 p{
+        font-size:16px;
+        font-family: helvetica,arial;
+        text-align:center;
+    }
+    .box2 a{
+        text-decoration: none;
+        color:#000000;
+    }
+    .box2 a:hover{
+        font-weight: bolder;
+        color:red;
     }
     .box2 img{
-        width:70px;
+        width:120px;
     }
     .box3{
         text-align:center;
         width:100%;
         padding:10px;
     }
+    .box3 p{
+        font-size:16px;
+        font-family: helvetica,arial;
+        text-align:center;
+    }
+    .box3 a{
+        text-decoration: none;
+        color:#000000;
+    }
+    .box3 a:hover{
+        font-weight: bolder;
+        color:red;
+    }
     .box3 img{
-        width:70px;
+        width:120px;
     }
     .asided aside{
         display:flex;
