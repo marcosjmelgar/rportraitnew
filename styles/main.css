@@ -153,6 +153,7 @@
     .box{
         width:300px;
         margin: 5px 10px;
+        box-shadow: 5px 2px 2px #808080;
     }
     .box img{
         width:100%;
