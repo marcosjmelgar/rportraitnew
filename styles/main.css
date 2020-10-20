@@ -1,7 +1,12 @@
-@media (min-width:480px) {
-.box{
+
+.body{
+    margin-left:10px;
+    margin-right:10px;
+}
+.boxpri{
     margin-right:0px;
-    width:100%;
+    margin-bottom:10px;
+    width:65%;
 }
 .mainh{
     Font-size:40px;
@@ -14,15 +19,27 @@
     font-family: helvetica,arial;
     text-align: center;
 }
-.box img {
+.maina{
+    text-decoration: none;
+    color:#000000;
+}
+.maina:hover{
+    color:red;
+}
+.mainpa{
+    text-decoration: none;
+    color:#000000;
+}
+.mainpa:hover{
+    color:red;
+}
+.boxpri img {
     width:100%;
 }
 .container {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
     width:100%;
 }
     .box1{
@@ -82,7 +99,7 @@
         color:#000000;
     }
     .box3 a:hover{
-        font-weight: bolder;
+        font-weight: bold;
         color:red;
     }
     .box3 img{
@@ -91,8 +108,69 @@
     .asided aside{
         display:flex;
         flex-direction: row;
-        width:100%;
         justify-content: space-between;
         align-items: center;
+        border-bottom: 2px solid;
+        border-top: 2px solid;
     }
-}
+    .othernewsh{
+        font-size:16px;
+        font-family:helvetica,arial;
+        text-align:center;
+        margin-bottom:5px;
+    }
+    .h3a{
+        text-decoration: none;
+        color:#000000;
+        font-weight: bold;
+    }
+    .h3a:hover{
+        color:red;
+        font-weight:bolder;
+    }
+    .paother{
+        text-decoration: none;
+        color:#000000;
+    }
+    .paother:hover{
+        color:red;
+    }
+    .othernewsp{
+        text-align:center;
+        font-size:14px;
+        font-family: helvetica,arial;
+        margin-bottom:5px;
+    }
+    .box{
+        width:300px;
+        margin: 5px 10px;
+    }
+    .box img{
+        width:100%;
+    }
+    .container2 {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    @media (min-width:900px) {
+        .asided aside{
+            display:flex;
+            flex-direction:column;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom:none;
+            border-top:none;
+            border-left:3px solid;
+        }
+        .container{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width:100%;
+        }
+        .boxpri{
+            padding-right:70px;
+        }
+    }
